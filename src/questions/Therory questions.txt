@@ -1,0 +1,29 @@
+Q1. let a={name:"vaibhav"}
+let b=a;
+b.name="rishi"
+console.log(a);
+console.log(b);
+
+Here a is passed as refernce to b
+
+Q2. let a={name:"vaibhav"}
+let a={...b};
+console.log(a);
+console.log(b);
+
+Here a is destructured now it is passed as an new object 
+
+Q3. Diffrence between var let and const
+var is function scope while let and const are block scope also const value cannot be changes 
+
+if(true){
+    var a=9;
+    let b=8;
+    const b=9;
+}
+console.log(a)
+console.log(b)
+console.log(c)
+
+Q4. explain context api with useReducer and useContext 
+
