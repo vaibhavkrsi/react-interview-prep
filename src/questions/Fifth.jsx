@@ -8,7 +8,7 @@ const Fifth = () => {
     const reponse = async () => {
       const result = await fetch(`https://dummyjson.com/carts/`);
       const json = await result.json();
-      const desire = 5;
+      const desire = 1;
       const des = json.carts.slice(0, desire);
       setData(des);
       console.log(json);
